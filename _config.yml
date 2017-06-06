@@ -63,7 +63,7 @@ event:
   about:
     description: >
       HackBo es el hackathon estudiantil m&aacute;s grande en Bolivia, donde apasionados por la tecnolog&iacute;a colaboran durante 24hrs.
-      En equipos, compiten para desarrollar la mejor solución de software o hardware 
+      En equipos, compiten para desarrollar la mejor soluci&oacute;n de software o hardware
       y ganar uno de los tres primeros lugares, al igual que muchos premios!      
 
   # Info Sections
@@ -94,7 +94,7 @@ event:
         Nada. Atender al Hackathon es gratis.
     - question: "¿Necesito ser estudiante para participar en este Hackathon?"
       answer: >
-        S&iacute;. Solo estudiantes que est&eacute;n inscritos en universidad, o bien, &uacute;ltimos años de colegio (con permiso de su tutor legal)
+        S&iacute;. S&oacute;lo estudiantes que est&eacute;n inscritos en universidad, o bien, &uacute;ltimos a&ntilde;os de colegio (con permiso de su tutor legal)
         pueden participar de este evento.
     - question: "¿D&oacute;nde es el evento?"
       answer: >
@@ -102,7 +102,7 @@ event:
     - question: "¿Existe un c&oacute;digo de conducta?"
       answer: >
         S&iacute;, existe. Se debe de respetar el establecimiento, los componentes tecnol&oacute;gicos y dem&aacute;s participates del hackathon.
-    - question: "¿Quienes est&aacute;n organizando este evento?"
+    - question: "¿Qui&eacute;nes est&aacute;n organizando este evento?"
       answer: >
         [Clubes de Ciencia Bolivia](http://www.clubesdecienciabolivia.com/)
 
