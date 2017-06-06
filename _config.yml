@@ -50,7 +50,7 @@ event:
         data-toggle: ""
       - text: "Patrocinios"
         href: "mailto:gustavo.fdlf@gmail.com"
-        class: "btn btn-lg btn-danger"
+        class: "btn btn-lg"
         data-mode: ""
         target: ""
         toggle: "popover"
