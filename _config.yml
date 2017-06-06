@@ -57,7 +57,7 @@ event:
         toggle: "popover"
         content: "clubesdecienciabolivia@gmail.com"
         placement: "auto"
-        trigger: "hover"
+        trigger: "click"
 
 
   about:
