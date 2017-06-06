@@ -31,6 +31,16 @@ section {
     .bigHackbo{
       display: none;
     }
+
+     .big-terminal .fakeMenu {
+    width: 280px;
+   }
+   .big-terminal .fakeScreen {
+    width: 280px;
+   }
+   .big-terminal .fakeScreen p{
+    font-size: 1em;
+   }
 }
 @media screen and (min-width: 561px) {
     .smallHackbo{
@@ -159,7 +169,7 @@ section {
 
 .info .item h1 {
   font-family: 'Montserrat';
-  font-size: 45px;
+  font-size: 2.5em;
   font-weight: 700;
   margin: 20px 0;
 }
@@ -1046,7 +1056,7 @@ CREADIT: https://codepen.io/anon/pen/jmoVKq;
 }
 
 .fakeMenu {
-  width: 350px;
+  width: 320px;
   box-sizing: border-box;
   height: 25px;
   background-color: #bbb;
@@ -1058,7 +1068,7 @@ CREADIT: https://codepen.io/anon/pen/jmoVKq;
 .fakeScreen {
   background-color: #151515;
   box-sizing: border-box;
-  width: 350px;
+  width: 320px;
   margin: 0 auto;
   padding: 20px;
   border-bottom-left-radius: 5px;
@@ -1070,7 +1080,7 @@ CREADIT: https://codepen.io/anon/pen/jmoVKq;
   left: 50%;
   margin-left: -8.5em;
   text-align: left;
-  font-size: 1.25em;
+  font-size: 1.20em;
   font-family: monospace;
   white-space: nowrap;
   overflow: hidden;
