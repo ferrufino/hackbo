@@ -86,7 +86,7 @@ event:
 
   # Frequently asked questions.
   faq:
-    - question: "¿Qu&ecaute; es un Hackathon?"
+    - question: "¿Qu&eacaute; es un Hackathon?"
       answer: >
         Un hackathon es un marat&oacute;n de creadores. Estudiantes se juntan para crear un proyecto cool de Software o Hardware en 24hrs.
     - question: "¿Cu&aacute;nto cuesta?"
