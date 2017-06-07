@@ -82,7 +82,7 @@ event:
       - image: "images/Presenta.png"
         title: "PRESENTA"
         description: >
-          Aseg&uacute;rate que tu hack est&ecaute; estable, y no te olvides de preparar tu presentaci&oacute;n ante los jueces. ¡Buena suerte!
+          Aseg&uacute;rate que tu hack est&eacute; estable, y no te olvides de preparar tu presentaci&oacute;n ante los jueces. ¡Buena suerte!
 
   # Frequently asked questions.
   faq:
