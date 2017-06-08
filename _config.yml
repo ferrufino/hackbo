@@ -94,17 +94,21 @@ event:
         Nada. Atender al Hackathon es gratis.
     - question: "¿Necesito ser estudiante para participar en este Hackathon?"
       answer: >
-        S&iacute;. S&oacute;lo estudiantes que est&eacute;n inscritos en universidad, o bien, &uacute;ltimos a&ntilde;os de colegio (con permiso de su tutor legal)
-        pueden participar de este evento.
+        S&iacute;. S&oacute;lo estudiantes que est&eacute;n inscritos en universidad haciendo su pregrado, o bien, &uacute;ltimos a&ntilde;os de colegio (con permiso de su tutor legal)
+        pueden participar de este evento. (17-25 años)
     - question: "¿D&oacute;nde es el evento?"
       answer: >
         El evento va ser realizado en la UPSA del 27 al 28 de Julio
     - question: "¿Existe un c&oacute;digo de conducta?"
       answer: >
         S&iacute;, existe. Se debe de respetar el establecimiento, los componentes tecnol&oacute;gicos y dem&aacute;s participates del hackathon.
+    - question: "Voy a participar solo o en equipo."
+      answer: >
+        Si es que vas a participar solo, necesitas saber programar, o bien en equipo por lo menos una persona debe de saber programar para poder crear un desarrollo en 24hrs.
     - question: "¿Qui&eacute;nes est&aacute;n organizando este evento?"
       answer: >
         [Clubes de Ciencia Bolivia](http://www.clubesdecienciabolivia.com/)
+
 
   # Partners
   partner:
