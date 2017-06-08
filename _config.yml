@@ -92,7 +92,7 @@ event:
     - question: "¿Cu&aacute;nto cuesta?"
       answer: >
         Nada. Atender al Hackathon es gratis.
-    - question: "¿Necesito ser estudiante para participar en este Hackathon?"
+    - question: "¿Necesito ser estudiante para participar en HackBo?"
       answer: >
         S&iacute;. S&oacute;lo estudiantes que est&eacute;n inscritos en universidad haciendo su pregrado, o bien, &uacute;ltimos a&ntilde;os de colegio (con permiso de su tutor legal)
         pueden participar de este evento. (17-25 años)
