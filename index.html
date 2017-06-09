@@ -136,16 +136,14 @@ layout: default
 <section class="faq">
   <div class="container">
     <h1 class="text-center">FAQ</h1>
-    <div class="">
-      <div class="">
-        {% for item in site.event.faq %}
-        <div class="question col-xs-12 col-sm-4">
-          <h2>{{ item.question }}</h2>
-          <hr>
-          {{ item.answer | markdownify }}
-        </div>
-        {% endfor %}
+    <div class="row">
+      {% for item in site.event.faq %}
+      <div class="question col-xs-12 col-sm-4">
+        <h2>{{ item.question }}</h2>
+        <hr>
+        {{ item.answer | markdownify }}
       </div>
+      {% endfor %}
     </div>
   </div>
 </section>
