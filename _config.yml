@@ -88,7 +88,7 @@ event:
   faq:
     - question: "Voy a participar solo o en equipo."
       answer: >
-        Si es que vas a participar solo, necesitas saber programar, o bien en equipo por lo menos una persona debe de saber programar para poder crear un desarrollo en 24hrs.
+        Si es que vas a participar solo, necesitas saber programar, o bien en equipo (maximo 4) por lo menos una persona debe de saber programar para poder crear un desarrollo en 24hrs.
     - question: "Estoy estudiando mi segunda carrera ¿Puedo participar?"
       answer: >
         Lamentablemente no. Para validar tu participación, Clubes de Ciencia Bolivia considerara tu nivel de educación mas alto. Este es un evento para estudiantes de colegio o pregrado universitario.
