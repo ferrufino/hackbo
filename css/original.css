@@ -16,7 +16,7 @@
 }
 
 body {
-  background-color: #6AD3BF;
+  background-color: #00A789;
 }
 
 section {
@@ -61,7 +61,7 @@ section {
  */
 
 .hero {
-  background-color: #6AD3BF;
+  background-color: #00A789;
   min-height: 40vh;
 }
 
@@ -70,7 +70,7 @@ section {
 }
 
 .hero hr {
-  border-top: 15px solid #FFB241;
+  border-top: 15px solid #00A789;
   margin: 0;
   position: relative;
   top: -14px;
@@ -235,7 +235,7 @@ section {
  */
 
 .footer {
-  background-color: #6AD3BF;
+  background-color: #00A789;
   color: #fff;
   padding: 30px 0;
 }
