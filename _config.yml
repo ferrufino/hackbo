@@ -46,9 +46,11 @@ event:
         href: "https://ferrufino.typeform.com/to/jDxP1F"
         class: "typeform-share link"
         data-mode: "2"
-        target: "_blank"
+        target: ""
         data-toggle: ""
         data-content: ""
+        id: "aplica-btn"
+        clicked: "return track();"
       - text: "Patrocinios"
         href: "mailto:clubesdecienciabolivia@gmail.com"
         class: "link"
@@ -58,6 +60,8 @@ event:
         content: "clubesdecienciabolivia@gmail.com"
         placement: "auto"
         trigger: "click"
+        id: "patrocinios-btn"
+        clicked: "return track();"
 
 
   about:
