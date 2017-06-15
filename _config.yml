@@ -50,7 +50,7 @@ event:
         data-toggle: ""
         data-content: ""
         id: "aplica-btn"
-        clicked: "return track();"
+        clicked: "return trackFormViews();"
       - text: "Patrocinios"
         href: "mailto:clubesdecienciabolivia@gmail.com"
         class: "link"
@@ -61,7 +61,7 @@ event:
         placement: "auto"
         trigger: "click"
         id: "patrocinios-btn"
-        clicked: "return track();"
+        clicked: "return true;"
 
 
   about:
