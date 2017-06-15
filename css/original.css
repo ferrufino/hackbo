@@ -107,7 +107,7 @@ section {
 .hero .buttons a {
   background: #fff;
   border-radius: 40px;
-  color: #6AD3BF;
+  color: #00A789;
   display: inline;
   font-family: Montserrat;
   font-size: 24px;
@@ -213,7 +213,7 @@ section {
 }
 
 .faq .question hr {
-  border-top: 8px solid #6AD3BF;
+  border-top: 8px solid #00A789;
   margin: 20px 0;
   width: 80px;
 }
@@ -457,7 +457,7 @@ section {
   left: 10%;
   height: 30%;
   width: 80%;
-  background: #6AD3BF;
+  background: #00A789;
 }
 .monitor-screen .browser-right .preview:before {
   position: absolute;
@@ -721,7 +721,7 @@ section {
   left: 100%;
   height: 30%;
   width: 20%;
-  background: #6AD3BF; /*mug space*/
+  background: #00A789; /*mug space*/
   border-radius: 0 50% 50% 0;
 }
 
