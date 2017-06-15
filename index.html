@@ -162,4 +162,17 @@ layout: default
   </div>
 </section>
 
+<section class="faq">
+  <div class="container">
+    <h1 class="text-center">Patrocinadores </h1>
+    <div class="row">
+      {% for item in site.event.patrocinadores %}
+        <!-- Cuando agreguemos mas partners, cambiar col-sm-12 a col-sm-4 -->
+        <div class="col-xs-12 col-sm-12">
+          <img class="center-block" src="{{ item.image }}" />
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
 

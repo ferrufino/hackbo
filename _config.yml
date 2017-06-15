@@ -120,6 +120,9 @@ event:
   partner:
     - image: "images/upsa.png"
 
+  patrocinadores:
+    - image: "images/facebook-logo.png"
+
   logo:
     - image: "images/hackbo2x.png"
     - imageSmall: "images/hackbo.png"
