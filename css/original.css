@@ -23,6 +23,9 @@ section {
 
   overflow-x:hidden;
 }
+.img-circle {
+    border-radius: 50%;
+}
 
 @media screen and (max-width: 560px) {
     .smallHackbo{

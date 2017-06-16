@@ -150,6 +150,20 @@ layout: default
 
 <section class="faq">
   <div class="container">
+    <h1 class="text-center">Organizadores</h1>
+    <div class="row">
+      {% for item in site.event.organizers %}
+        <div class="col-xs-12 col-sm-4 text-center ">
+          <img class="img-circle" src="{{ item.image }}" />
+          <h3>{{ item.description }}</h3>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="faq">
+  <div class="container">
     <h1 class="text-center">Partner </h1>
     <div class="row">
       {% for item in site.event.partner %}

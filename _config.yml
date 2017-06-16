@@ -76,7 +76,7 @@ event:
       - image: "images/Disenha.png"
         title: "DISEÑA"
         description: >
-          ¡Dise&ntilde;a bien tu proyecto! Deber&iacute;as de ser capaz de responder ¿Qu&eacute; necesidad soluciona mi propuesta?
+          ¡Dise&ntilde;a bien tu proyecto! Deber&iacute;as de ser capaz de responder ¿Qu&eacute; necesidad soluciona mi proyecto a desarrollar?
           (C&iacute;vico, Salud, Social, Educaci&oacute;n, etc.)
       - image: "images/Desarrolla.png"
         title: "DESARROLLA"
@@ -119,7 +119,26 @@ event:
       answer: >
         El evento va ser realizado en la UPSA del 27 al 28 de Julio
 
+  organizers:
+    - image: "images/org/marcelo.jpg"
+      description: "Marcelo Gómez"
 
+    - image: "images/org/gustavo.jpg"
+      description: "Gustavo Ferrufino"
+
+
+    - image: images/org/rodrigo.jpg"
+      description: "Rodrigo Yañez"
+
+    - image: "images/org/pamela.jpg"
+      description: "Pamela Toledo"
+
+    - image: "images/org/clay.jpg"
+      description: "Clay Caballero"
+
+
+    - image: "images/org/roberto.jpg"
+      description: "Roberto Antelo"
   # Partners
   partner:
     - image: "images/upsa.png"
