@@ -31,7 +31,7 @@ social:
 seo:
   title:       "HackBo"
   description: "Hackathon Clubes de Ciencia Bolivia Santa Cruz de la Sierra"
-  image:       ""
+  image:       "images/hackbourl.png"
 
 # Event information.
 event:
