@@ -66,7 +66,7 @@ event:
 
   about:
     description: >
-      HackBo es el hackathon estudiantil m&aacute;s grande en Bolivia, donde apasionados por la tecnolog&iacute;a colaboran durante 24hrs.
+      HackBo es el hackathon nacional m&aacute;s grande en Bolivia, donde apasionados por la tecnolog&iacute;a colaboran durante 24hrs.
       En equipos, compiten para desarrollar la mejor soluci&oacute;n de software o hardware
       y ganar uno de los tres primeros lugares, al igual que muchos premios!      
 
@@ -109,6 +109,9 @@ event:
     - question: "¿Qu&eacute; es un Hackathon?"
       answer: >
         Un hackathon es un marat&oacute;n donde desarrolladores se juntan para crear un proyecto de Software o Hardware en 24hrs, presentando un prototipo que solucione un problema. (Al menos una persona de un equipo debe de saber programar)
+    - question: "Tengo un proyecto en el que ya he trabajado, ¿puedo utilizarlo en el hackathon?"
+      answer: >
+        S&iacute;, puedes trabajar en mejorar proyectos pasados o utilizarlos para crear nuevos proyectos. S&oacute;lo recuerda que evaluaremos el progreso que hagas durante el evento.
     - question: "¿Qui&eacute;nes est&aacute;n organizando este evento?"
       answer: >
         [Clubes de Ciencia Bolivia](http://www.clubesdecienciabolivia.com/)
