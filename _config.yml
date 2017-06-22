@@ -129,7 +129,9 @@ event:
 
   patrocinadores:
     - image: "images/facebook-logo.png"
+      url: ""
     - image: "images/xx.png"
+      url: "https://www.facebook.com/ximenaximenez/"
 
   logo:
     - image: "images/hackbo2x.png"
