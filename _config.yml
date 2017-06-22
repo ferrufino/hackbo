@@ -126,6 +126,7 @@ event:
 
   patrocinadores:
     - image: "images/facebook-logo.png"
+    - image: "images/xx.png"
 
   logo:
     - image: "images/hackbo2x.png"
