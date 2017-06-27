@@ -50,8 +50,7 @@
             var timeLeft = Math.floor((deadline - Date.now()) / 1000);
             if (timeLeft <= 0) {
               clearInterval(interval);
-              // TODO: Decide what to do here
-              $('#countdown')[0].innerHTML = "";
+              $('#countdown')[0].innerHTML = "La convocatoria se ha cerrado";
             } else {
               var days = Math.floor(timeLeft / SECS_IN_DAY);
               var hours = Math.floor((timeLeft % SECS_IN_DAY) / SECS_IN_HOUR);
