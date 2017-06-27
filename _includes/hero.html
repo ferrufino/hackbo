@@ -41,6 +41,10 @@
         // We need to know when the TypeForm will stop being available, but this'll do for now
         var deadline = new Date("July 14, 2017 00:00:00").getTime();
 
+        var gg = function(i) {
+          return i < 10 ? '0' + i : i;
+        }
+
         var interval = setInterval(
           function () {
             var timeLeft = Math.floor((deadline - Date.now()) / 1000);
@@ -54,8 +58,13 @@
               var minutes = Math.floor((timeLeft % SECS_IN_HOUR) / SECS_IN_MINUTE);
               var seconds = timeLeft % SECS_IN_MINUTE;
 
-              // TODO: Pretty print this
-              $('#countdown')[0].innerHTML = days+':'+hours+':'+minutes+':'+seconds;
+              $('#countdown')[0].innerHTML =
+                '¡Quedan '
+                  + '<b>' + days + ' d&iacute;as '
+                  + gg(hours) + 'h'
+                  + ' ' + gg(minutes) + 'm'
+                  + ' ' + gg(seconds) + 's'
+                  + '</b> para aplicar!';
             }
           },
           1000,
