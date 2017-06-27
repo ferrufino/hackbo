@@ -13,6 +13,7 @@
   </script>
   <div class="wrapper text-center">
     <h3 rel="location">{{ site.event.date }} &mdash; {{ site.event.location }}</h3>
+    <h1 rel="location" id="countdown"></h1>
 
     <div class="buttons">
       {% for link in site.event.hero.links %}
@@ -32,6 +33,34 @@
       </a>
 
       {% endfor %}
+      <script>
+        const SECS_IN_MINUTE = 60;
+        const SECS_IN_HOUR = 60 * 60;
+        const SECS_IN_DAY = 24 * 60 * 60;
+
+        // We need to know when the TypeForm will stop being available, but this'll do for now
+        var deadline = new Date("July 14, 2017 00:00:00").getTime();
+
+        var interval = setInterval(
+          function () {
+            var timeLeft = Math.floor((deadline - Date.now()) / 1000);
+            if (timeLeft <= 0) {
+              clearInterval(interval);
+              // TODO: Decide what to do here
+              $('#countdown')[0].innerHTML = "";
+            } else {
+              var days = Math.floor(timeLeft / SECS_IN_DAY);
+              var hours = Math.floor((timeLeft % SECS_IN_DAY) / SECS_IN_HOUR);
+              var minutes Math.floor((timeLeft % SECS_IN_HOUR) / SECS_IN_MINUTE);
+              var seconds = timeLeft % SECS_IN_MINUTE;
+
+              // TODO: Pretty print this
+              $('#countdown')[0].innerHTML = days+':'+hours+':'+minutes+':'+seconds;
+            }
+          },
+          1000,
+        );
+      </script>
       <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm_share',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
     </div>
   </div>
