@@ -132,6 +132,8 @@ event:
       url: ""
     - image: "images/xx.png"
       url: "https://www.facebook.com/ximenaximenez/"
+    - image: "images/RedNuevaEmpresa.png"
+      url: "http://www.rednuevaempresa.com/cas/login"
 
   logo:
     - image: "images/hackbo2x.png"
