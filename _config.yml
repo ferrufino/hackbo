@@ -136,7 +136,7 @@ event:
     - image: "images/RedNuevaEmpresa.png"
       url: "http://www.rednuevaempresa.com/cas/login"
   patrocinadoresKilo:
-    - image: "images/gdglapaz.jpeg"
+    - image: "images/gdglpz.png"
       url: ""
 
   logo:
