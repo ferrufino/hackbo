@@ -135,6 +135,7 @@ event:
       url: "https://www.facebook.com/ximenaximenez/"
     - image: "images/RedNuevaEmpresa.png"
       url: "http://www.rednuevaempresa.com/cas/login"
+  patrocinadoresKilo:
     - image: "images/gdglapaz.jpeg"
       url: ""
 
