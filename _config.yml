@@ -118,12 +118,13 @@ event:
     - question: "¿Cu&aacute;nto cuesta?"
       answer: >
         Nada. Atender al Hackathon es gratis.
+    - question: "Quiero participar, pero no tengo experiencia programando."
+      answer: >
+        Puede participar todo tipo de estudiante no importa su profesión, si bien es arquitectura, estudia periodismo o una ingeniería. Lo que sí requieren es que haya por lo menos un programador en el equipo.
     - question: "¿D&oacute;nde es el evento?"
       answer: >
         El evento va ser realizado en la UPSA del 27 al 28 de Julio
-
-
-  # Partners
+      # Partners
   partner:
     - image: "images/upsa.png"
 
@@ -134,6 +135,8 @@ event:
       url: "https://www.facebook.com/ximenaximenez/"
     - image: "images/RedNuevaEmpresa.png"
       url: "http://www.rednuevaempresa.com/cas/login"
+    - image: "images/gdglapaz.jpeg"
+      url: ""
 
   logo:
     - image: "images/hackbo2x.png"
