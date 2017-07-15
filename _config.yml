@@ -42,15 +42,6 @@ event:
 
   hero:
     links:
-      - text: "Aplica"
-        href: "https://ferrufino.typeform.com/to/jDxP1F"
-        class: "typeform-share link"
-        data-mode: "2"
-        target: ""
-        data-toggle: ""
-        data-content: ""
-        id: "aplica-btn"
-        clicked: "return trackFormViews();"
       - text: "Patrocinios"
         href: "mailto:clubesdecienciabolivia@gmail.com"
         class: "link"
