@@ -118,7 +118,7 @@ event:
       # Partners
   partner:
     - image: "images/upsa.png"
-
+    - image: "images/bancoFassil.jpeg"
   patrocinadores:
     - image: "images/facebook-logo.png"
       url: ""
